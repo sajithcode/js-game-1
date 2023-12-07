@@ -1,7 +1,17 @@
+#parent{
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    background-color: rgb(233, 233, 245);
+    overflow: hidden;
+}
+
+
 #shape{
            
-    background-color: blueviolet;
+    
     display: none;
     position: relative;
     
 }
+

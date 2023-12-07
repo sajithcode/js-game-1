@@ -42,7 +42,7 @@ document.getElementById("shape").onclick = function(){
     var time = (end - start)/1000;
     //time  = Math.floor(time);
     //alert(time);
-    document.getElementById("time").innerHTML = time;
+    document.getElementById("time").innerHTML = time+"s";
     document.getElementById("clicks").innerHTML= clicks;
     shapeAppearDelay();
     clicks = clicks+1
